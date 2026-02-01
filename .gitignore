@@ -4,11 +4,8 @@ node_modules/
 .vscode/
 .idea/
 *.swp
-.claude/
 *~
 *.log
 *.tmp
 .env
 /target
-/src/writing/ideas.txt
-/src/writing/todo
