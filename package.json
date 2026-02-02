@@ -1,28 +1,27 @@
 {
   "name": "romanstanuch.com",
   "version": "1.0.0",
-  "description": "",
+  "type": "module",
+  "description": "Personal website of Roman Stanuch",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy"
+    "build": "npx @11ty/eleventy",
+    "clean": "rm -rf dist"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Roman-Stanuch/romanstanuch.com.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Roman Stanuch",
   "license": "ISC",
-  "packageManager": "npm@11.4.1",
-  "type": "module",
+  "packageManager": "npm@10.1.0",
   "bugs": {
     "url": "https://github.com/Roman-Stanuch/romanstanuch.com/issues"
   },
   "homepage": "https://github.com/Roman-Stanuch/romanstanuch.com#readme",
   "dependencies": {
-    "@11ty/eleventy": "^3.1.2",
-    "nunjucks": "^3.2.4"
+    "@11ty/eleventy": "^3.1.2"
   }
 }
