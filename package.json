@@ -16,7 +16,6 @@
   "keywords": [],
   "author": "Roman Stanuch",
   "license": "ISC",
-  "packageManager": "npm@10.1.0",
   "bugs": {
     "url": "https://github.com/Roman-Stanuch/romanstanuch.com/issues"
   },
