@@ -1,0 +1,14 @@
+:root {
+    background-color: #fafafa;
+    color: #1a1a2a;
+    border-color: #eee;
+
+    font-family: serif;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        background-color: #0e0e14;
+        color: #e3e3e8;
+    }
+}
