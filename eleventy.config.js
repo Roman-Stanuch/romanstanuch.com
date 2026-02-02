@@ -14,7 +14,7 @@ export default function(eleventyConfig) {
     metadata: {
       language: "en",
       title: "Roman Stanuch Writing",
-      base: "https://romanstanuch.com/",
+      base: "https://roman-stanuch.github.io/",
       author: {
         name: "Roman Stanuch"
       }
