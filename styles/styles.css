@@ -1,14 +1,57 @@
 :root {
-    background-color: #fafafa;
-    color: #1a1a2a;
-    border-color: #eee;
+    --bg-color: #fafafa;
+    --primary-text-color: #1a1a2a;
 
-    font-family: serif;
+    background-color: var(--bg-color);
+    color: var(--primary-text-color);
+
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        background-color: #0e0e14;
-        color: #e3e3e8;
+        --bg-color: #0e0e14;
+        --primary-text-color: #e3e3e8;
     }
+}
+
+body {
+    max-width: 100ch;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+a {
+    color: var(--primary-text-color);
+}
+
+img {
+    width: 100ch;
+    height: auto;
+}
+
+h1 {
+    font-size: 2.375rem;
+}
+
+h2 {
+    font-size: 1.875rem;
+}
+
+.site-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+    width: 100;
 }
