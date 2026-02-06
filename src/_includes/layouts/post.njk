@@ -3,6 +3,6 @@ tags: posts
 layout: layouts/base.njk
 ---
 {% block path %} 
-    <header><a href="/">home</a> / <a href="/writing">writing</a> {% if pathtitle %} / <a href="{{ page.url }}">{{ pathtitle }}</a>{% endif %}</header>
+    <header><a href="/">root</a> / <a href="/writing">writing</a> {% if pathtitle %} / <a href="{{ page.url }}">{{ pathtitle }}</a>{% endif %}</header>
 {% endblock %}
 {{ content | safe }}
