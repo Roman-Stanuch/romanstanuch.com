@@ -1,5 +1,4 @@
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
-import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
 import pluginRss from "@11ty/eleventy-plugin-rss";
 
 export default function(eleventyConfig) {
@@ -10,10 +9,6 @@ export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
   eleventyConfig.addPassthroughCopy("src/styles");
   eleventyConfig.addPassthroughCopy("src/.nojekyll");
-
-  return {
-    pathPrefix: "/romanstanuch.com/"
-  }
 }
 
 export const config = {
