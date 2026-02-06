@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="https://roman-stanuch.github.io/romanstanuch.com/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Roman Stanuch Writing</title>
+    <title>Stanuch Thoughts</title>
     <link>https://roman-stanuch.github.io/romanstanuch.com/</link>
     <atom:link href="https://roman-stanuch.github.io/romanstanuch.com/rss.xml" rel="self" type="application/rss+xml" />
-    <description>This is a longer description about your blog.</description>
+    <description>A collection of musings by computer science student Roman Stanuch.</description>
     <language>en</language>
     <item>
       <title>The Art of Studying</title>
       <link>https://roman-stanuch.github.io/romanstanuch.com/writing/the-art-of-studying/</link>
-      <description>&lt;h2&gt;The Art of Studying&lt;/h2&gt;
-&lt;p&gt;Coming soon&lt;/p&gt;
-</description>
-      <pubDate>Mon, 02 Feb 2026 12:44:42 GMT</pubDate>
+      <pubDate>Fri, 06 Feb 2026 13:25:04 GMT</pubDate>
       <dc:creator>Roman Stanuch</dc:creator>
       <guid>https://roman-stanuch.github.io/romanstanuch.com/writing/the-art-of-studying/</guid>
     </item>
