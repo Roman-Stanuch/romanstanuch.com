@@ -1,6 +1,7 @@
 :root {
     --bg-color: #fafafa;
     --primary-text-color: #1a1a2a;
+    --secondary-text-color: #709EEB;
 
     background-color: var(--bg-color);
     color: var(--primary-text-color);
@@ -29,7 +30,7 @@ body {
 }
 
 a {
-    color: var(--primary-text-color);
+    color: var(--secondary-text-color);
 }
 
 img {
