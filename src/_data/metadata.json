@@ -1,0 +1,9 @@
+{
+    "title": "Stanuch Thoughts",
+    "description": "A collection of musings by computer science student Roman Stanuch.",
+    "language": "en",
+    "base": "https://roman-stanuch.github.io/",
+    "author": {
+        "name": "Roman Stanuch"
+    }
+}

@@ -1,5 +1,5 @@
 ---
-tags: writing
+tags: posts
 title: The Art of Studying
 layout: layouts/base.njk
 ---
