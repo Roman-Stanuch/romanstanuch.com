@@ -3,7 +3,6 @@ import pluginRss from "@11ty/eleventy-plugin-rss";
 
 export default function(eleventyConfig) {
   eleventyConfig.addPlugin(eleventyImageTransformPlugin);
-  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
   eleventyConfig.addPlugin(pluginRss);
 
   eleventyConfig.addPassthroughCopy("src/assets");
