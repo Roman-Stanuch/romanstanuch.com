@@ -15,7 +15,11 @@
     <item>
       <title>{{ post.data.title }}</title>
       <link>{{ absolutePostUrl }}</link>
-      <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
+      {% if post.data.publishdate %}
+        <pubDate>{{ post.data.publishdate }}</pubDate>
+      {% else %}
+        <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
+      {% endif %}
       <dc:creator>{{ metadata.author.name }}</dc:creator>
       <guid>{{ absolutePostUrl }}</guid>
     </item>

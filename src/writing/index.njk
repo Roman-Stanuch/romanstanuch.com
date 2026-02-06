@@ -1,0 +1,11 @@
+---
+layout: layouts/base.njk
+title: Writing
+---
+{% block path %} 
+    <header><a href="/">home</a> / <a href="/writing">writing</a></header>
+{% endblock %}
+<h2>Writing (<a href="../rss.xml">RSS</a>)</h2>
+{% for post in collections.posts %}
+<p>{{ post.data.publishdate }}: <a href="{{ post.url }}">{{ post.data.title }}</a></p>
+{% endfor %}

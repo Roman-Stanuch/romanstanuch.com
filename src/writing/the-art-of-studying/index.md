@@ -1,7 +1,8 @@
 ---
-tags: posts
 title: The Art of Studying
-layout: layouts/base.njk
+publishdate: 02/01/2026
+pathtitle: the-art-of-studying
+layout: layouts/post.njk
 ---
 
 ## The Art of Studying
