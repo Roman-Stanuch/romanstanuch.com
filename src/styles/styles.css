@@ -3,6 +3,7 @@
     --primary-text-color: #1a1a2a;
     --secondary-text-color: #666666;
     --link-text-color: #709EEB;
+    --main-site-width: 100ch;
 
     background-color: var(--bg-color);
     color: var(--primary-text-color);
@@ -26,7 +27,7 @@
 }
 
 body {
-    max-width: 100ch;
+    max-width: var(--main-site-width);
     margin: 0 auto;
     padding: 20px 20px;
 }
