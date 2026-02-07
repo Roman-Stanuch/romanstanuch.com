@@ -40,6 +40,8 @@ img {
     width: var(--main-site-width);
     max-width: 100%;
     height: auto;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 }
 
 h1 {
@@ -67,4 +69,8 @@ hr {
 
 .path {
     color: var(--secondary-text-color);
+}
+
+.no-bottom-margin {
+    margin-block-end: 0;
 }
