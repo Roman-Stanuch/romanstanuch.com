@@ -2,6 +2,13 @@
 tags: posts
 layout: layouts/base.njk
 ---
+
+<style>
+    img {
+        margin-block-end: 0;
+    }
+</style>
+
 {% block path %}
     <header class="path"><a href="/">root</a> / <a href="/writing">writing</a> {% if pathtitle %} / <a href="{{ page.url }}">{{ pathtitle }}</a>{% endif %}</header>
 {% endblock %}
