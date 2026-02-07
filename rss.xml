@@ -7,13 +7,11 @@
     <description>A collection of musings by computer science student Roman Stanuch.</description>
     <language>en</language>
     <item>
-      <title>The Art of Studying</title>
-      <link>https://romanstanuch.com/writing/the-art-of-studying/</link>
-      
-        <pubDate>02/01/2026</pubDate>
-      
+      <title>MadHacks 2025</title>
+      <link>https://romanstanuch.com/writing/madhacks-2025/</link>
+      <pubDate>Sat, 07 Feb 2026 01:13:52 GMT</pubDate>
       <dc:creator>Roman Stanuch</dc:creator>
-      <guid>https://romanstanuch.com/writing/the-art-of-studying/</guid>
+      <guid>https://romanstanuch.com/writing/madhacks-2025/</guid>
     </item>
   </channel>
 </rss>

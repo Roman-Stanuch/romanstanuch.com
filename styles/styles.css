@@ -1,7 +1,8 @@
 :root {
     --bg-color: #fafafa;
     --primary-text-color: #1a1a2a;
-    --secondary-text-color: #709EEB;
+    --secondary-text-color: #666666;
+    --link-text-color: #709EEB;
 
     background-color: var(--bg-color);
     color: var(--primary-text-color);
@@ -20,21 +21,22 @@
     :root {
         --bg-color: #0e0e14;
         --primary-text-color: #e3e3e8;
+        --secondary-text-color: #9090a0;
     }
 }
 
 body {
     max-width: 100ch;
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: 20px 20px;
 }
 
 a {
-    color: var(--secondary-text-color);
+    color: var(--link-text-color);
 }
 
 img {
-    width: 100ch;
+    width: 80ch;
     height: auto;
 }
 
@@ -46,6 +48,10 @@ h2 {
     font-size: 1.875rem;
 }
 
+hr {
+    border-color: var(--secondary-text-color);
+}
+
 .site-header {
     display: flex;
     align-items: center;
@@ -55,4 +61,8 @@ h2 {
     text-align: center;
     gap: 0.5rem;
     width: 100;
+}
+
+.path {
+    color: var(--secondary-text-color);
 }
