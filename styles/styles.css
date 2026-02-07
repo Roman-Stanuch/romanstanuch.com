@@ -37,7 +37,8 @@ a {
 }
 
 img {
-    width: 80ch;
+    width: var(--main-site-width);
+    max-width: 100%;
     height: auto;
 }
 
