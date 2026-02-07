@@ -13,18 +13,20 @@
         <header class="site-header">
             <h1><a href="/" style="text-decoration: none; color: var(--primary-text-color);">Roman Stanuch</a></h1>
             <nav style="display: flex; gap: 0.5rem;">
-                <span>[</span>
-                <a href="/writing">writing</a>
+                <span style="color: var(--secondary-text-color);">[</span>
                 <a href="/about">about</a>
+                <a href="/writing">writing</a>
                 <a href="/lists">lists</a>
                 <a href="https://github.com/roman-stanuch/" target="_blank">github</a>
-                <span>]</span>
+                <span style="color: var(--secondary-text-color);">]</span>
             </nav>
             <span>{% block path %}{% endblock %}</span>
         </header>
         {{ content | safe }}
+        <br>
+        <hr>
         <footer>
-            <p>&copy; 2026 | romanstanuch.com</p>
+            <p style="color: var(--secondary-text-color);">&copy; 2026 | romanstanuch.com</p>
         </footer>
     </body>
 </html>

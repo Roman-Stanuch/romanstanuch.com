@@ -2,8 +2,8 @@
 layout: layouts/base.njk
 title: Home
 ---
-{% block path %} 
-    <header><a href="/">root</a> /</header>
+{% block path %}
+    <header class="path"><a href="/">root</a> /</header>
 {% endblock %}
 
 <p>
@@ -13,3 +13,11 @@ title: Home
     been working on some projects that you can see on my <a href="https://github.com/roman-stanuch/" target="_blank">github</a> and
     writing about various topics that you can see in the <a href="/writing">writing</a> section.
 </p>
+
+<h2 style="margin-block-end: 0em;">Latest Writing</h2>
+{% for post in collections.posts | reverse %}
+    {% if loop.index <= 5 %}
+        <p>>> {{ post.date | dateFormatMonth }}: <a href="{{ post.url }}">{{ post.data.title }}</a>
+        </p>
+    {% endif %}
+{% endfor %}
