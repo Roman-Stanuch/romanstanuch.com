@@ -24,6 +24,10 @@ export default function (eleventyConfig) {
     const year = d.getUTCFullYear();
     return `${month}-${day}-${year}`;
   });
+
+  eleventyConfig.addFilter("dateYear", (date) => {
+    return new Date(date).getUTCFullYear();
+  });
 }
 
 export const config = {
