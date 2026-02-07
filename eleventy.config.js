@@ -5,9 +5,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyImageTransformPlugin);
   eleventyConfig.addPlugin(pluginRss);
 
-  eleventyConfig.addPassthroughCopy("src/assets");
-  eleventyConfig.addPassthroughCopy("src/styles");
-  eleventyConfig.addPassthroughCopy("src/.nojekyll");
+  eleventyConfig.addWatchTarget("src/writing");
 
   eleventyConfig.addFilter("dateFormatLong", (date) => {
     const d = new Date(date);
@@ -28,6 +26,11 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("dateYear", (date) => {
     return new Date(date).getUTCFullYear();
   });
+
+  eleventyConfig.addPassthroughCopy("src/assets");
+  eleventyConfig.addPassthroughCopy("src/styles");
+  eleventyConfig.addPassthroughCopy("src/.nojekyll");
+  eleventyConfig.addPassthroughCopy("src/writing/**/images");
 }
 
 export const config = {
